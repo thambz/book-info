@@ -2,6 +2,41 @@
 <html>
 <head>
   <title>Authors</title>
+  <style>
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      background-color: #333;
+      overflow: hidden;
+    }
+    nav li {
+      float: left;
+    }
+    nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav li a:hover {
+      background-color: #111;
+    }
+
+    ul.authors {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+    ul.authors li {
+      background-color: #f9f9f9;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-left: 5px solid #333;
+      font-size: 18px;
+    }
+  </style>
 </head>
 <body>
   <h1>Authors</h1>
@@ -14,10 +49,11 @@
     </ul>
   </nav>
 
-  <ul>
+  <ul class="authors">
     <li>Paulo Coelho - Famous for "The Alchemist"</li>
     <li>James Clear - Known for "Atomic Habits"</li>
     <li>Kalki - Renowned Tamil writer, wrote "Ponniyin Selvan"</li>
   </ul>
+
 </body>
 </html>
